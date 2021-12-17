@@ -22,6 +22,7 @@ const images = () => {
             const path = target.parentNode.getAttribute('href');
             bigImage.setAttribute('src', path);
             document.body.style.overflow = 'hidden';
+                 
         }
 
         if (target && target.matches('div.popup')) {
